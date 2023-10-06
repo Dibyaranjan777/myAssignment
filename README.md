@@ -1,7 +1,7 @@
- To achieve the objectives of extracting total quantities of each item bought per customer aged 18-35 from the provided SQLite3 database and storing the results in a CSV file we can use both SQL and Pandas. 
-Both solutions will connect to the SQLite3 database, execute the SQL query to extract the required data, and then store the results in a CSV file with a semicolon (';') delimiter.
+# To achieve the objectives of extracting total quantities of each item bought per customer aged 18-35 from the provided SQLite3 database and storing the results in a CSV file we can use both SQL and Pandas. 
+# Both solutions will connect to the SQLite3 database, execute the SQL query to extract the required data, and then store the results in a CSV file with a semicolon (';') delimiter.
 
-Pandas Solution:
+# Pandas Solution:
 
 import pandas as pd
 import sqlite3
@@ -31,7 +31,7 @@ conn.close()
 df.to_csv('output.csv', sep=';', index=False)
 
 
-SQL SOLUTION:
+# SQL SOLUTION:
 
 
 import sqlite3
